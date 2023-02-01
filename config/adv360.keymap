@@ -40,12 +40,12 @@
       creturn {
           timeout-ms = <50>;
           key-positions = <41 43>;
-          bindings = <&kp RIGHT_COMMAND>;
+          bindings = <&kp RETURN>;
       };
       ctab {
           timeout-ms = <50>;
           key-positions = <30 32>;
-          bindings = <&kp RIGHT_COMMAND>;
+          bindings = <&kp TAB>;
       };
     };
     behaviors {
