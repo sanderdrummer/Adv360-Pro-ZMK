@@ -8,63 +8,63 @@
     combos {
       compatible = "zmk,combos";
       lctrl {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <29 30>;
           bindings = <&kp LCTRL>;
       };
       lalt {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <30 31>;
           bindings = <&kp LALT>;
       };
       lcmd {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <31 32>;
           bindings = <&kp LEFT_COMMAND>;
       };
       laltcmd {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <30 31 32>;
           bindings = <&kp LA(LEFT_COMMAND)>;
       };
       lctrlcmd {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <29 31 32>;
           bindings = <&kp LC(LEFT_COMMAND)>;
       };
       rctrl {
-          timeout-ms = <40>;
-          key-positions = <44 43>;
+          timeout-ms = <60>;
+          key-positions = <46 45>;
           bindings = <&kp RCTRL>;
       };
       ralt {
-          timeout-ms = <40>;
-          key-positions = <43 42>;
+          timeout-ms = <60>;
+          key-positions = <45 44>;
           bindings = <&kp RALT>;
       };
       rcmd {
-          timeout-ms = <40>;
-          key-positions = <42 41>;
+          timeout-ms = <60>;
+          key-positions = <44 43>;
           bindings = <&kp RIGHT_COMMAND>;
       };
       creturn {
-          timeout-ms = <40>;
-          key-positions = <41 43>;
+          timeout-ms = <60>;
+          key-positions = <43 45>;
           bindings = <&kp RETURN>;
       };
       ctab {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <30 32>;
           bindings = <&kp TAB>;
       };
       escr {
-          timeout-ms = <40>;
+          timeout-ms = <60>;
           key-positions = <29 32>;
           bindings = <&kp ESC>;
       };
       eq {
-          timeout-ms = <40>;
-          key-positions = <44 41>;
+          timeout-ms = <60>;
+          key-positions = <46 43>;
           bindings = <&kp EQUAL>;
       };
     };
