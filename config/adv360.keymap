@@ -121,11 +121,11 @@
 
     symbols {
       bindings = <
-        &trans &trans &trans   &trans          &trans      &trans      &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans   &kp AMPERSAND   &kp STAR    &kp PLUS    &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans   &kp DOLLAR      &kp PERCENT &kp CARET   &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans   &kp EXCLAMATION &kp AT_SIGN &kp HASH                        &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans &trans   &trans          &trans                        &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &trans &trans   &trans          &trans      &trans    &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans   &kp AMPERSAND   &kp STAR    &kp PLUS  &trans  &none                                           &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans   &kp DOLLAR      &kp PERCENT &kp CARET &trans  &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans   &kp EXCLAMATION &kp AT_SIGN &kp HASH  &trans                      &trans &trans                     &trans &trans &trans &trans  &trans  &trans
+        &trans &trans   &trans          &trans      &trans                  &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
     web {
