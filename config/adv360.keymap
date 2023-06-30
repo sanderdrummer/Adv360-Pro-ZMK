@@ -117,15 +117,15 @@
         &trans &kp TILDE &kp GRAVE &kp LBKT &kp RBKT &kp PLUS                      &trans &trans                     &trans &trans &trans  &trans  &trans  &trans
         &trans &trans    &trans    &trans   &trans                  &trans  &trans &trans &trans &trans &trans              &trans &trans  &trans  &trans  &trans
       >;
-    };
-    
+    }; 
+
     symbols {
       bindings = <
-        &trans &trans   &trans          &trans      &trans      &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans   &kp AMPERSAND   &kp STAR    &kp PLUS    &none                                           &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans   &kp DOLLAR      &kp PERCENT &kp CARET   &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
-        &trans &trans   &kp EXCLAMATION &kp AT_SIGN &kp HASH                        &trans &trans                     &trans &trans &trans &trans  &trans  &trans
-        &trans &trans   &trans          &trans                        &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
+        &trans &trans &trans   &trans          &trans      &trans      &none                                           &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans   &kp AMPERSAND   &kp STAR    &kp PLUS    &none                                           &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans   &kp DOLLAR      &kp PERCENT &kp CARET   &none        &trans &trans &trans &trans        &none &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans   &kp EXCLAMATION &kp AT_SIGN &kp HASH                        &trans &trans                     &trans &trans &trans &trans  &trans  &trans
+        &trans &trans &trans   &trans          &trans                        &trans &trans &trans &trans &trans &trans              &trans &trans &trans  &trans  &trans
       >;
     };
     web {
