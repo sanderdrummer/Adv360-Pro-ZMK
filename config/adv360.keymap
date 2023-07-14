@@ -81,7 +81,6 @@
     keymap {
         compatible = "zmk,keymap";
 
-
     default_layer {
       bindings = <
         &none     &kp N1    &kp N2   &kp N3     &kp N4       &kp N5 &none                                                            &mo 1 &kp N6 &kp N7   &kp N8      &kp N9   &kp N0   &none
@@ -117,7 +116,7 @@
         &trans &kp TILDE &kp GRAVE &kp LBKT &kp RBKT &kp PLUS                      &trans &trans                     &trans &trans &trans  &trans  &trans  &trans
         &trans &trans    &trans    &trans   &trans                  &trans  &trans &trans &trans &trans &trans              &trans &trans  &trans  &trans  &trans
       >;
-    }; 
+    };
 
     symbols {
       bindings = <
