@@ -8,57 +8,57 @@
     combos {
       compatible = "zmk,combos";
       lctrl {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <29 30>;
           bindings = <&kp LCTRL>;
       };
       lalt {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <30 31>;
           bindings = <&kp LALT>;
       };
       lcmd {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <31 32>;
           bindings = <&kp LEFT_COMMAND>;
       };
       laltcmd {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <30 31 32>;
           bindings = <&kp LA(LEFT_COMMAND)>;
       };
       lctrlcmd {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <29 31 32>;
           bindings = <&kp LC(LEFT_COMMAND)>;
       };
       rctrl {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <44 43>;
           bindings = <&kp RCTRL>;
       };
       ralt {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <43 42>;
           bindings = <&kp RALT>;
       };
       rcmd {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <42 41>;
           bindings = <&kp RIGHT_COMMAND>;
       };
       creturn {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <41 43>;
           bindings = <&kp RETURN>;
       };
       ctab {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <30 32>;
           bindings = <&kp TAB>;
       };
       escr {
-          timeout-ms = <30>;
+          timeout-ms = <45>;
           key-positions = <29 32>;
           bindings = <&kp ESC>;
       };
@@ -70,8 +70,8 @@
           compatible = "zmk,behavior-hold-tap";
           label = "HOMEROW_MODS";
           #binding-cells = <2>;
-          tapping-term-ms = <175>;
-          quick_tap_ms = <150>;
+          tapping-term-ms = <200>;
+          quick_tap_ms = <175>;
           flavor = "tap-preferred";
           bindings = <&kp>, <&kp>;
       };
@@ -83,11 +83,11 @@
 
     default_layer {
       bindings = <
-        &none     &kp N1    &kp N2   &kp N3     &kp N4       &kp N5 &none                                                            &mo 1 &kp N6 &kp N7   &kp N8      &kp N9   &kp N0   &none
-        &none     &kp Q     &kp W    &kp E      &kp R        &kp T  &none                                                            &none &kp Y  &kp U    &kp I       &kp O    &kp P    &none
-        &none     &kp A     &kp S    &kp D      &kp F        &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL           &none &kp H  &kp J    &kp K       &kp L    &kp SEMI &none
-        &none     &kp Z     &kp X    &lt 5 C    &lt 2 V      &kp B                          &kp HOME &kp PG_UP                             &kp N  &lt 3 M  &lt 4 COMMA &kp DOT  &kp FSLH &none
-        &none     &none     &none    &none      &none                 &kp SPACE &kp LSHFT   &kp END  &kp PG_DN &kp RSHFT &kp BSPC                 &none    &none       &none    &none    &none
+        &none     &kp N1    &kp N2   &kp N3     &kp N4       &kp N5 &none                                                                  &mo 1 &kp N6 &kp N7   &kp N8      &kp N9   &kp N0   &none
+        &none     &kp Q     &kp W    &kp E      &kp R        &kp T  &none                                                                  &none &kp Y  &kp U    &kp I       &kp O    &kp P    &none
+        &none     &kp A     &kp S    &kp D      &kp F        &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL                 &none &kp H  &kp J    &kp K       &kp L    &kp SEMI &none
+        &none     &kp Z     &kp X    &lt 5 C    &lt 2 V      &kp B                          &kp HOME &kp PG_UP                                   &kp N  &lt 3 M  &lt 4 COMMA &kp DOT  &kp FSLH &none
+        &none     &none     &none    &none      &none                 &kp SPACE &kp LSHFT   &kp END  &kp PG_DN &kp RSHFT &mt LCTRL BSPC                 &none    &none       &none    &none    &none
       >;
     };
     mod {
@@ -110,11 +110,11 @@
     };
     brackets {
       bindings = <
-        &trans &trans    &trans    &trans   &trans   &trans    &none                                           &none &trans &trans &trans  &trans  &trans  &trans
-        &trans &kp UNDER &kp DQT   &kp LBRC &kp RBRC &kp PIPE  &none                                           &none &trans &trans &trans  &trans  &trans  &trans
-        &trans &kp MINUS &kp SQT   &kp LPAR &kp RPAR &kp BSLH  &none         &trans &trans &trans &trans       &none &trans &trans &trans  &trans  &trans  &trans
-        &trans &kp TILDE &kp GRAVE &kp LBKT &kp RBKT &kp PLUS                      &trans &trans                     &trans &trans &trans  &trans  &trans  &trans
-        &trans &trans    &trans    &trans   &trans                  &trans  &trans &trans &trans &trans &trans              &trans &trans  &trans  &trans  &trans
+        &trans &trans    &trans    &trans   &trans   &trans    &none                                           &none &trans &trans &trans    &trans    &trans     &trans
+        &trans &kp UNDER &kp DQT   &kp LBRC &kp RBRC &kp PIPE  &none                                           &none &trans &trans &trans    &trans    &trans     &trans
+        &trans &kp MINUS &kp SQT   &kp LPAR &kp RPAR &kp BSLH  &none         &trans &trans &trans &trans       &none &trans &trans &trans    &trans    &trans     &trans
+        &trans &kp TILDE &kp GRAVE &kp LBKT &kp RBKT &kp PLUS                      &trans &trans                     &trans &trans &kp LGUI  &kp LALT  &kp LCTRL  &trans
+        &trans &trans    &trans    &trans   &trans                  &trans  &trans &trans &trans &trans &trans              &trans &trans    &trans    &trans     &trans
       >;
     };
 
