@@ -92,11 +92,11 @@
 
     default_layer {
       bindings = <
-        &none     &kp N1    &kp N2     &kp N3     &kp N4       &kp N5 &none                                                                  &mo 1 &kp N6 &kp N7   &kp N8      &kp N9   &kp N0   &none
-        &none     &kp Q     &kp W      &kp E      &kp R        &kp T  &none                                                                  &none &kp Y  &kp U    &kp I       &kp O    &kp P    &none
-        &none     &kp A     &kp S      &kp D      &kp F        &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL                 &none &kp H  &kp J    &kp K       &kp L    &kp SEMI &none
-        &none     &kp Z     &lt 6 X    &lt 5 C    &lt 2 V      &kp B                          &kp HOME &kp PG_UP                                   &kp N  &lt 3 M  &lt 4 COMMA &kp DOT  &kp FSLH &none
-        &none     &none     &none      &none      &none                 &kp SPACE &kp LSHFT   &kp END  &kp PG_DN &kp RSHFT &mt LCTRL BSPC                 &none    &none       &none    &none    &none
+        &none     &kp N1    &kp N2     &kp N3     &kp N4       &kp N5 &none                                                                  &mo 1 &kp N6 &kp N7   &kp N8      &kp N9   &kp N0    &none
+        &none     &kp Q     &kp W      &kp E      &kp R        &kp T  &none                                                                  &none &kp Y  &kp U    &kp I       &kp O    &kp P     &none
+        &none     &kp A     &kp S      &kp D      &kp F        &kp G  &none           &kp LCTRL &kp LALT &kp LGUI  &kp RCTRL                 &none &kp H  &kp J    &kp K       &kp L    &kp SEMI  &none
+        &none     &kp Z     &lt 6 X    &lt 5 C    &lt 2 V      &kp B                          &kp HOME &kp PG_UP                                   &kp N  &lt 3 M  &lt 4 COMMA &kp DOT  &kp FSLH  &none
+        &none     &none     &none      &none      &none                 &kp SPACE &kp LSHFT   &kp END  &kp PG_DN &kp RSHFT &mt LCTRL BSPC                 &kp LEFT &kp DOWN    &kp UP   &kp RIGHT &none
       >;
       };
       mod {
